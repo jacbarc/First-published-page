@@ -1,0 +1,211 @@
+/** CSS dla wszystkich stron **/
+html, body {
+    margin: 0;
+    height: 100%;
+    /* background: linear-gradient(to right, rgb(188, 239, 255), rgb(164, 143, 143)) */
+    background-color: rgb(248, 254, 252);
+  }
+  header {
+    height: 235px;
+  }
+  body {
+    font-size: 20px;
+    overflow-x: hidden;
+    height: fit-content; 
+  }
+  .header {
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    display: block;
+    position: sticky;
+    position: -webkit-sticky; /* Safari */
+    top: 0;
+  }
+  .headernav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 0, 0);
+    
+  }
+  
+  .headernav li {
+    float: left;
+  }
+  
+  .headernav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .headernav li a:hover {
+    background-color: rgb(120, 0, 0);
+  }
+  
+  .active {
+    background-color: #1a0933;
+  }
+  #headerlogo {
+    margin: 0;
+    padding: 0;
+  }
+  h2, h3 {
+  font-family: 'Cormorant SC', serif;
+  text-align: center;
+  }
+
+  footer {
+    padding: 15px 15px;
+  }
+  .footernav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ 
+  }
+  .footernav li {
+    font-size: 16px;
+    color: rgb(172, 168, 168);
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    
+  }
+  .footernav li a {
+    font-size: 20px;
+    color: rgb(59, 31, 220);
+    
+  }
+  /** set dla .column **/
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  section {
+    border-bottom: 3px double black;
+  }
+
+ /** dla strony index.html **/
+
+  .column p, .column ul {
+    text-align: justify;
+    padding: 0 50px 0 50px;
+  }
+  #startpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .column ul li {
+    list-style-type: square;
+    padding: 10px 0 10px 0;
+  }
+   /** ustawienie zdjecia na index, 1 proba
+   .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 50px 0 50px;
+  } **/
+
+/** ustawianie kolumn 1 proba
+  .column {
+    float: left;
+    width: 50%;
+    padding: 0px;
+  }
+  
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  **/
+  #startpic {
+    border: solid #1a0933;
+    margin-bottom: 25px;
+  }
+  #kominek { /* TODO poprawic ustawienie */
+    padding: 66px 25px 66px 25px;
+  }
+  #indexsection2 {
+    color: white;
+    background-color: rgba(30, 44, 106, 0.741);
+  }
+ /* oferta.html */
+ .ofertahtml { /* jak zmienic kolor backgroundu ? TODO */
+    background-color: white;
+ }
+ .imgcenter { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+ }
+ .ofertasection {
+    font-family: 'Ibarra Real Nova', serif;
+ }
+ /* Portfolio.html */
+ .imgcenterp { 
+    display: block;
+    margin: 25px auto 25px auto;
+    width: auto;
+    border: solid rgb(244, 244, 244);
+ }
+ .white {
+    background-color: antiquewhite;
+ }
+ .black {
+    color: white;
+    background-color: #1a0933;
+ }
+ .white, .black {
+    font-family: 'Cormorant SC', serif;
+ }
+ /*onas.html*/
+ .onas {
+    background-image: url("../images/mountains.jpg");
+    color: #000000;
+    font-weight: 600;
+ }
+ #onas {
+    display: block;
+    margin: 50px auto 50px auto;
+    width: 80%;
+    border: 5px solid rgb(7, 4, 4);
+ }
+
+
+  /* kontakt.html */
+ #kontakt {
+    text-align: center;
+ }
+ #blacka {
+    color: bisque;
+ }
+ .column iframe {
+    margin: 25px auto 25px auto;
+ }
+ #kontaktlogo {
+    display: block;
+    margin: 50px auto 50px auto;
+    width: 50%;
+ }
