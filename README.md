@@ -1,5 +1,6 @@
 # jacbarc.github.io
 Projekt a01
+
 Wyzwania jakie napotkałem ( i co się z nich nauczyłem)
 1. Budowa main nav, position:sticky nie działało, przyczyną było to, że w html'u umiejscowiłem nav wewnątrz headera. Usunąłem header,
 a zamiast niego dodałem div header. 
