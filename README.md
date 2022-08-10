@@ -1,4 +1,4 @@
-# jacbarc.github.io
+# jacbarc.github.io/ortal
 Projekt a01
 
 Wyzwania jakie napotkałem ( i co się z nich nauczyłem)
